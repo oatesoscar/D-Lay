@@ -67,5 +67,10 @@ namespace D_Lay
             tThirtysecond.Text = Math.Round(calculator.thirtysecond * calculator.tRatio, calculator.precision).ToString();
             tSixtyfourth.Text = Math.Round(calculator.sixtyfourth * calculator.tRatio, calculator.precision).ToString();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
